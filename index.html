@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Raghav Agarwal's Portfolio" />
+
+    <!-- Always include this line of code!!! -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      href="img/header-logo/Screenshot 2023-01-21 at 3.20.21 pm.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="img/header-logo/Screenshot 2023-01-21 at 3.20.21 pm.png"
+    />
+    <!-- <link rel="manifest" href="manifest.webmanifest" /> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- <link rel="stylesheet" href="css/general.css" /> -->
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style_sheet_2.css" />
+    <link rel="stylesheet" type="text/css" href="./css/queries.css" />
+    <!-- <link rel="stylesheet" href="css/queries.css" /> -->
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+    <script src="https://unpkg.com/@supabase/supabase-js"></script>
+    <!-- <script>
+      const SUPABASE_URL = 'https://hoxqigjfqjbfdroymbgq.supabase.co/rest/v1/new'
+      const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhveHFpZ2pmcWpiZmRyb3ltYmdxIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODAzNTMwMDUsImV4cCI6MTk5NTkyOTAwNX0.sXtzhAA3gNCMvh4wMU4L-mjcjf0ayd91nsVisb7Siqc'
+      
+      const _supabase = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY)
+      console.log(_supabase);
+    </script> -->
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <!-- <script defer src="./js/script.js"></script> -->
+
+    <title>ATSoc Blogs</title>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@1.14.0"></script>
+    <script>
+      // Your Supabase code here
+      const supabaseUrl = 'https://hoxqigjfqjbfdroymbgq.supabase.co';
+      const supabaseKey =
+        'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhveHFpZ2pmcWpiZmRyb3ltYmdxIiwicm9sZSI6ImFub24iLCJpYXQiOjE2ODAzNTMwMDUsImV4cCI6MTk5NTkyOTAwNX0.sXtzhAA3gNCMvh4wMU4L-mjcjf0ayd91nsVisb7Siqc';
+      const supabase = createClient(supabaseUrl, supabaseKey);
+      console.log(supabase);
+    </script> -->
+  </head>
+  <body>
+    <header class="header container" id="header">
+      <img class="header-logo" src="img/header-logo/new.png" />
+      <nav class="nav-links">
+        <a class="link-header home-btn" href="#">Home</a>
+        <a
+          class="link-header home-btn"
+          href="./sample-podcasting-page/index.html"
+          >Podcasts</a
+        >
+        <a class="link-header blog-btn" href="#">Blogs</a>
+        <a class="link-header apply-btn" href="#">Apply</a>
+        <a class="link-header contact-btn" href="#">Contact Us</a>
+      </nav>
+      <nav class="nav-social">
+        <a
+          ><ion-icon
+            class="link-social logo-facebook"
+            href="#"
+            name="logo-facebook"
+          ></ion-icon
+        ></a>
+        <a
+          ><ion-icon
+            class="link-social logo-instagram"
+            href="#"
+            name="logo-instagram"
+          ></ion-icon
+        ></a>
+        <a
+          ><ion-icon
+            class="link-social logo-twitter"
+            href="#"
+            name="logo-twitter"
+          ></ion-icon
+        ></a>
+        <a
+          href="https://www.youtube.com/@unwindingcuriosity/featured"
+          target="_blank"
+          ><ion-icon
+            class="link-social logo-youtube"
+            name="logo-youtube"
+          ></ion-icon
+        ></a>
+      </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon
+          class="icon-mobile-nav menu-open menu"
+          name="menu-outline"
+        ></ion-icon>
+        <ion-icon
+          class="icon-mobile-nav menu-close close"
+          name="close-outline"
+        ></ion-icon>
+      </button>
+    </header>
+    <main>
+      <div class="home-page">
+        <section class="hero">
+          <div class="container hero-text">
+            <h3 class="heading-tertiary">Welcome</h3>
+            <h1 class="heading-primary active-think-1">Active Thinkers</h1>
+            <h1 class="heading-primary active-think-2">Active<br />Thinkers</h1>
+            <div class="swiper-container">
+              <div class="swiper-wrapper swiper-wrapper-exec">
+                <!-- Add more slides here (getting added from db) -->
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <a href="#section--3" class="explore-link">
+              <button class="btn btn-hero btn--full explore_btn">
+                Explore
+              </button>
+            </a>
+          </div>
+        </section>
+
+        <section class="section section--3" id="section--3">
+          <div class="section__title section__title--testimonials">
+            <h2 class="section__description">Our most Popular</h2>
+            <h3 class="section__header">Making Life Easier</h3>
+          </div>
+
+          <div class="slider">
+            <div class="slide">
+              <div
+                class="container grid grid--3-cols margin-bottom-md final-slider-comp"
+                id="slider-cards-blogs"
+              >
+                <!-- COMING FROM DB HERE LATEST 3 BLOGS -->
+              </div>
+            </div>
+
+            <div class="slide">
+              <div
+                class="container grid grid--3-cols margin-bottom-md final-slider-comp"
+                id="slider-cards-yt"
+              >
+                <!-- Coming from DB and yt api -->
+              </div>
+            </div>
+
+            <div class="slide">
+              <div
+                class="container grid grid--3-cols margin-bottom-md final-slider-comp"
+                id="slider-cards-yt-2"
+              >
+                <!-- Coming from DB and yt api 2 -->
+              </div>
+            </div>
+
+            <div class="slide">
+              <div
+                class="container grid grid--3-cols margin-bottom-md final-slider-comp event-main-page-slider-last"
+              >
+                <!--COMING FROM DB   -->
+              </div>
+            </div>
+
+            <button class="slider__btn slider__btn--left">&larr;</button>
+            <button class="slider__btn slider__btn--right">&rarr;</button>
+            <div class="dots"></div>
+          </div>
+        </section>
+        <section class="section newsletter">
+          <div class="container">
+            <div class="cta">
+              <div class="cta-text-box">
+                <h2 class="heading-secondary subscribe-newsletter">
+                  Subscribe to our Newsletter!
+                </h2>
+                <p class="cta-text">
+                  Our monthly newsletter is emailed to our subscribers. Please
+                  subscribe if you want to receive them. Our emails offers
+                  information like the blog topics and any YouTube channel news
+                  that we might have.
+                </p>
+
+                <form class="cta-form" name="subscribers" netlify>
+                  <div>
+                    <label for="full-name">Full Name</label>
+                    <input
+                      id="full-name"
+                      type="text"
+                      placeholder="John Smith"
+                      name="Full-Name"
+                    />
+                  </div>
+                  <div>
+                    <label for="email">Email address</label>
+                    <input
+                      id="email"
+                      type="email"
+                      placeholder="me@example.com"
+                      class="required"
+                      name="email"
+                      required
+                    />
+                  </div>
+
+                  <div>
+                    <label for="select-where"
+                      >Where did you hear from us?</label
+                    >
+                    <select id="select-where" name="select-where">
+                      <option value="">Please choose one option:</option>
+                      <option value="friends">Friends and family</option>
+                      <option value="youtube">YouTube video</option>
+                      <option value="podcast">Podcast</option>
+                      <option value="ad">Facebook</option>
+                      <option value="others">Others</option>
+                    </select>
+                  </div>
+
+                  <button class="btn btn--form">Subscribe</button>
+                </form>
+              </div>
+              <div
+                class="cta-img-box"
+                role="img"
+                aria-label="Woman enjoying food"
+              ></div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="apply-form-page hidden">
+        <section class="form">
+          <div class="apply-error-message hidden">
+            <p>Please fill all the mandatory fields correctly to continue</p>
+          </div>
+          <div class="apply-success-message hidden">
+            <p>Thank you submitting your application</p>
+          </div>
+          <h1>Apply</h1>
+          <form action="#" method="post" enctype="multipart/form-data">
+            <div class="form-row">
+              <label for="name">Name:</label>
+              <input type="text" id="apply-form-name" name="name" required />
+            </div>
+            <div class="form-row">
+              <label for="email">Email:</label>
+              <input type="email" id="apply-form-email" name="email" required />
+            </div>
+            <div class="form-row">
+              <label for="phone">Phone:</label>
+              <input type="tel" id="apply-form-phone" name="phone" />
+            </div>
+            <div class="form-row">
+              <label for="phone">Year of study</label>
+              <input type="tel" id="apply-form-year" name="phone" />
+            </div>
+            <div class="form-row">
+              <label for="phone">Degree/Major</label>
+              <input type="tel" id="apply-form-degree" name="phone" />
+            </div>
+            <div>
+              <label for="position"
+                >Which volunteer position are you interested in? (Please select
+                one)</label
+              >
+              <select name="position" id="apply-form-position">
+                <option value="event">Select</option>
+                <option value="event">Event Planning</option>
+                <option value="marketing">Marketing and Social Media</option>
+                <option value="podcast">Podcast Production</option>
+                <option value="design">Website and Graphic Design</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label for="message"
+                >Why are you interested in volunteering with the Active Thinkers
+                Society?</label
+              >
+              <textarea
+                id="apply-form-interested"
+                name="message"
+                required
+              ></textarea>
+            </div>
+            <div class="form-row">
+              <label for="message"
+                >What skills or experience do you have that would be useful for
+                the club?</label
+              >
+              <textarea
+                id="apply-form-contribution"
+                name="message"
+                required
+              ></textarea>
+            </div>
+            <div class="form-row">
+              <label for="message"
+                >How much time are you able to commit per week?</label
+              >
+              <textarea id="apply-form-time" name="message" required></textarea>
+            </div>
+            <!-- <div class="form-row">
+              <label for="resume">Upload Resume:</label>
+              <input type="file" id="resume" name="resume" />
+            </div> -->
+            <div class="form-row">
+              <button class="apply-form-submit" type="submit">Submit</button>
+            </div>
+          </form>
+        </section>
+      </div>
+      <div class="contact-us-page hidden">
+        <section class="contact">
+          <div class="contact-error-message hidden">
+            <p>Please fill all the mandatory fields correctly to continue</p>
+          </div>
+          <div class="contact-success-message hidden">
+            <p>Thank you for contacting us we will be in touch soon</p>
+          </div>
+          <h1>Contact Us</h1>
+          <form action="#" method="post" enctype="multipart/form-data">
+            <div class="form-row">
+              <label for="name">Name:</label>
+              <input type="text" id="contact-form-name" name="name" required />
+            </div>
+            <div class="form-row">
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                id="contact-form-email"
+                name="email"
+                required
+              />
+            </div>
+            <div class="form-row">
+              <label for="phone">Phone:</label>
+              <input type="tel" id="contact-form-phone" name="phone" />
+            </div>
+            <div class="form-row">
+              <label for="message">Message:</label>
+              <textarea
+                id="contact-form-message"
+                name="message"
+                required
+              ></textarea>
+            </div>
+            <!-- <div class="form-row">
+              <label for="resume">Upload Resume:</label>
+              <input type="file" id="resume" name="resume" />
+            </div> -->
+            <div class="form-row contact-form-submit">
+              <button type="submit">Submit</button>
+            </div>
+          </form>
+        </section>
+      </div>
+      <div class="blog-main-page hidden">
+        <section class="blog-hero">
+          <div class="container blog-hero-text">
+            <!-- <h3 class="heading-tertiary"></h3> -->
+            <h1 class="blog-hero-heading heading-primary">Active Readers</h1>
+            <!-- <h1></h1> -->
+          </div>
+        </section>
+        <section class="search-bar">
+          <input type="text" placeholder="Search" class="search-bar-search" />
+        </section>
+        <section class="blog-page section">
+          <aside class="categories">
+            <ul class="category-blog-main-pg">
+              <li class="category">
+                <button class="btn btn-all-categories">All</button>
+              </li>
+              <!-- All Categories loaded here from the DB -->
+            </ul>
+          </aside>
+          <aside class="categories2">
+            <select class="category-blog-main-pg-2">
+              <option class="btn btn-all-categories-2">All</option>
+              <!-- All Categories loaded here from the DB -->
+            </select>
+          </aside>
+          <section class="blogs-summary">
+            <ul class="blog-list-one blog-list grid grid--3-cols">
+              <!-- DB LOADED BLOGS HERE -->
+            </ul>
+          </section>
+        </section>
+      </div>
+      <div class="read-more-blog-page hidden">
+        <section class="section read-more-blog-section">
+          <header>
+            <h1>TITLE</h1>
+          </header>
+          <div class="read-now-blog-here">
+            <article class="read-now-blog-main-article">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel
+                ante eget nulla tincidunt volutpat. Integer euismod facilisis
+                mauris, quis semper sapien mattis id. Curabitur eu odio aliquam,
+                bibendum sem eu, tincidunt elit. Duis feugiat vel turpis eu
+                viverra. Nam malesuada consequat consequat. Curabitur aliquet
+                risus sit amet neque suscipit, in fringilla nulla congue.
+                Praesent id diam vestibulum, vestibulum massa quis, imperdiet
+                elit. Aliquam tempor nibh sit amet lectus dictum, ac sodales
+                velit accumsan. Nullam sit amet ante luctus, ornare dolor ac,
+                imperdiet ex. Praesent ac est in sem lacinia aliquet.
+                <br /><br />Phasellus congue nulla id arcu malesuada, non rutrum
+                mauris pharetra. Maecenas vulputate purus velit, eget
+                consectetur justo posuere eu. Proin id efficitur enim. Fusce
+                mollis tristique ipsum, a suscipit nunc consequat a. Vivamus
+                sagittis vestibulum nibh, eu venenatis leo dictum vel. Aliquam
+                ac odio quis velit posuere semper. Proin malesuada libero ut
+                pharetra ullamcorper. Sed ultricies bibendum felis, at suscipit
+                sapien ultricies ut. Proin in libero vel turpis hendrerit
+                ullamcorper. Etiam malesuada eu quam id eleifend.
+                <br /><br />Nulla ullamcorper sapien ut consectetur
+                sollicitudin. Aliquam vel tincidunt nunc. Nulla eu lectus enim.
+                Fusce euismod tellus purus, id lobortis velit pellentesque
+                vitae. Donec accumsan tincidunt quam, a rutrum velit varius vel.
+                Praesent a quam dolor. Sed nec nibh vel lacus aliquam malesuada
+                at sit amet ex. Nullam ullamcorper imperdiet libero a lacinia.
+                Sed vitae neque eget lacus dignissim faucibus.
+              </p>
+            </article>
+            <aside class="read-now-blog-about-author">
+              <h2>About the Author</h2>
+              <p>
+                John Doe is a freelance writer and editor with a passion for
+                science and technology. He has written for numerous
+                publications, including Science Today and Tech Insider. When
+                he's not writing, John enjoys hiking, biking, and reading
+                science fiction.
+              </p>
+            </aside>
+          </div>
+        </section>
+      </div>
+      <div class="password-required-page hidden">
+        <section class="container section password-required-section">
+          <h1 id="pass-req-head">Sign In Required</h1>
+          <form action="#" id="pass-req-form">
+            <label for="password" id="enter-pass">Enter UserName:</label>
+            <input class="user-auth" id="actual-username" name="password" />
+            <label for="password" id="enter-pass">Enter Password:</label>
+            <input
+              type="password"
+              class="user-auth"
+              id="actual-password"
+              name="password"
+            />
+            <div id="checkbox-auth">
+              <label for="my-checkbox" id="checkbox-label-auth"
+                >Show Password</label
+              >
+              <input type="checkbox" id="my-checkbox-auth" />
+            </div>
+            <button type="submit" id="submit-btn-pass">Submit</button>
+          </form>
+        </section>
+      </div>
+      <div class="sign-up-page hidden">
+        <section class="container section sign-up-section">
+          <h1 id="pass-req-head">Sign Up Here</h1>
+          <form action="#" id="pass-req-form">
+            <label for="password" id="enter-pass">Name:</label>
+            <input
+              class="user-auth name-sign-up"
+              id="actual-username"
+              name="password"
+            />
+            <label for="password" id="enter-pass">Enter Email:</label>
+            <input
+              class="user-auth"
+              class="username-sign-up"
+              id="for-signup-actual-username"
+              name="password"
+            />
+            <label for="password" id="enter-pass">Enter Password:</label>
+            <input
+              type="password"
+              class="user-auth sign-up-pass"
+              id="actual-password"
+              name="password"
+            />
+            <label for="password" id="enter-pass">Re-Enter Password:</label>
+            <input
+              type="password"
+              class="user-auth sign-up-pass-check"
+              id="actual-password"
+              name="password"
+            />
+            <div>
+              <label for="char-limit" id="enter-pass"
+                >About Yourself Here <br />
+                (This will be diplayed with your blog):</label
+              >
+              <div class="textarea-container">
+                <textarea id="char-limit" name="char-limit"></textarea>
+                <div class="char-count"><span id="count">0</span>/200</div>
+              </div>
+            </div>
+            <!-- <div id="checkbox-auth">
+              <label for="my-checkbox" id="checkbox-label-auth"
+                >Show Password</label
+              >
+              <input
+                type="checkbox"
+                id="my-checkbox-sign-in"
+                class="my-checkbox-sign-in-cl"
+              />
+            </div> -->
+            <button type="submit" id="submit-btn-sig-up">Submit</button>
+          </form>
+        </section>
+      </div>
+      <div class="create-blog-page hidden">
+        <section class="form">
+          <div class="create-blog-error-message hidden">
+            <p>Please fill all the mandatory fields correctly to continue</p>
+          </div>
+          <div class="create-blog-success-message hidden">
+            <p>
+              Thank you submitting your application, it will be reviewed within
+              a couple days
+            </p>
+          </div>
+          <h1>Upload Blog</h1>
+          <form action="#" method="post" enctype="multipart/form-data">
+            <div class="create-blog-form-row">
+              <br />
+              <label for="name" class="create-blog-form-name">Name:</label>
+              <br />
+              <br />
+              <!-- <input type="text" id="apply-create-blog-form-name" name="name" required /> -->
+            </div>
+            <div class="create-blog-form-row">
+              <label>Blog Title</label>
+              <input id="apply-create-blog-form-title" name="title" required />
+            </div>
+            <div class="create-blog-form-row">
+              <label>Link for image for Blog Card</label>
+              <input
+                id="apply-create-blog-form-card-img"
+                name="linkCard"
+                required
+              />
+            </div>
+            <div class="create-blog-form-row">
+              <label>Link for image for Main Blog</label>
+              <input type="linkMain" id="apply-create-blog-img-blog" required />
+            </div>
+            <div>
+              <label>Select Blog Category</label>
+              <select id="apply-create-blog-form-category" required>
+                <!-- COMING FROM JS -->
+              </select>
+            </div>
+            <div class="create-blog-form-row-other hidden">
+              <label>Other (Please mention):</label>
+              <input id="apply-create-blog-form-other-category" required />
+            </div>
+            <div class="create-blog-form-row">
+              <label for="message"
+                >Provide a summary of the blog (200 characters from this
+                displayed on the card)</label
+              >
+              <textarea id="apply-create-blog-form-summary" required></textarea>
+            </div>
+            <div class="create-blog-form-row">
+              <label>Please provide the full blog body here:</label>
+              <textarea
+                id="apply-create-blog-form-body-main"
+                required
+              ></textarea>
+            </div>
+            <div class="create-blog-form-row">
+              <button class="apply-create-blog-form-submit" type="submit">
+                Submit
+              </button>
+            </div>
+          </form>
+        </section>
+      </div>
+      <div class="overlay" id="overlay">
+        <div class="overlay-content">
+          <span class="close-btn" id="close-btn">&times;</span>
+          <div class="error-message"></div>
+        </div>
+      </div>
+    </main>
+    <footer class="section-new footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img
+              class="footer-logo"
+              alt="My logo"
+              src="img/header-logo/Active-Thinkers-logo-real.png"
+            />
+          </a>
+
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-linkedin"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">&copy; Active Thinkers</p>
+          <p class="copyright">Made by Raghav Agarwal</p>
+        </div>
+
+        <div class="address-col">
+          <p class="footer-heading">Contact me</p>
+          <address class="contacts">
+            <p class="address">Castle Hill, Sydney, NSW 2154, Australia</p>
+            <p>
+              <a class="footer-link" href="tel:0437195171">+61437195171</a
+              ><br />
+              <a class="footer-link" href="mailto:raghagarwal@gmail.com"
+                >raghagarwal@gmail.com</a
+              >
+            </p>
+          </address>
+        </div>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#form">Subscribe</a></li>
+            <li><a class="footer-link" href="#blog">Blog</a></li>
+            <li><a class="footer-link" href="#">White Papers</a></li>
+            <!-- <li><a class="footer-link" href="#">Android app</a></li> -->
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#about-me">About Me</a></li>
+            <li><a class="footer-link" href="#experience">Experience</a></li>
+            <li><a class="footer-link" href="#projects">Projects</a></li>
+            <li><a class="footer-link" href="#skills">Skills</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <li>
+              <a
+                class="footer-link"
+                target="_blank"
+                href="https://www.youtube.com/@unwindingcuriosity"
+                >Youtube
+              </a>
+            </li>
+            <li>
+              <a class="footer-link-sign-up footer-link" href="#">Sign Up</a>
+            </li>
+            <li>
+              <a class="footer-link-create-blog footer-link" href="#"
+                >Create Blog</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+    <script
+      type="text/javascript"
+      src="./js/scriptV2.js"
+      type="module"
+    ></script>
+  </body>
+</html>

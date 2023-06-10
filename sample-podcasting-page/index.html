@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unwinding Curiosity</title>
+
+  <!-- 
+    - favicon link
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body id="top">
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="active" data-header>
+    <div class="container">
+
+      <!-- 
+        - overlay
+      -->
+      <div class="overlay" data-overlay></div>
+
+      <a href="#" class="logo">
+        <h1>UNWINDING CURIOSITY</h1>
+      </a>
+
+      <button class="nav-toggle-btn" data-nav-toggle-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="./../index.html" class="navbar-link">Home</a>
+          </li>
+          <li class="navbar-item">
+            <input type="text" placeholder="Search" class="search-bar-search" />
+          </li>
+        </ul>
+        <div class="navbar-actions">
+          <button class="navbar-btn" id="search-toggle">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+        </div>
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article class="container">
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="hero">
+
+        <div class="hero-content">
+
+          <img src="./assets/images/hero-title.png" alt="Podcast" class="hero-title">
+
+          <p class="hero-text">
+            We often find utter and mystifying things in the world that we don't yet 
+            understand. We are musicians who speaks in the language of the 
+            gravitational waves to help you understand. <br>
+            BE CURIOUS.
+          </p>
+
+          <div class="hero-btn-group">
+
+            <button class="btn btn-primary">
+              <ion-icon name="headset"></ion-icon>
+
+              <span>Listen Now</span>
+            </button>
+
+            <div class="btn-link-wrapper">
+
+              <p class="btn-title">Subscribe On:</p>
+
+              <a href="https://www.youtube.com/@unwindingcuriosity" class="btn-link">
+                <ion-icon
+                  class="link-social logo-youtube"
+                  name="logo-youtube"
+                ></ion-icon>
+
+                <span>Youtube</span>
+              </a>
+
+              <a href="#" class="btn-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-spotify" viewBox="0 0 16 16"> <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.669 11.538a.498.498 0 0 1-.686.165c-1.879-1.147-4.243-1.407-7.028-.77a.499.499 0 0 1-.222-.973c3.048-.696 5.662-.397 7.77.892a.5.5 0 0 1 .166.686zm.979-2.178a.624.624 0 0 1-.858.205c-2.15-1.321-5.428-1.704-7.972-.932a.625.625 0 0 1-.362-1.194c2.905-.881 6.517-.454 8.986 1.063a.624.624 0 0 1 .206.858zm.084-2.268C10.154 5.56 5.9 5.419 3.438 6.166a.748.748 0 1 1-.434-1.432c2.825-.857 7.523-.692 10.492 1.07a.747.747 0 1 1-.764 1.288z"/> </svg>
+
+                <span>Spotify Podcast</span>
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="hero-banner"></div>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PODCAST
+      -->
+
+      <section class="podcast" id="podcast">
+        <ul class="podcast-list">
+          <!-- GETTING FROM DB -->
+        </ul>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #NEWSLETTER
+      -->
+
+      <section class="newsletter">
+        <div class="newsletter-card">
+
+          <div class="card-content">
+            <h3 class="h3 card-title">Sign Up For Our Newsletter. It’s Free!</h3>
+
+            <p class="card-text">
+              Are you looking for even more great content from our channel? 
+              Sign up for our newsletter today and never miss a beat! Our 
+              newsletter is the perfect way to stay up-to-date on the latest 
+              news, tips, and tricks from our channel.
+            </p>
+          </div>
+
+          <form action="" class="card-form" data-form>
+            <input type="email" name="email_address" placeholder="Your Email Address" required class="input-field"
+              data-input>
+
+            <button type="submit" class="btn btn-primary" disabled data-submit>Subscribe</button>
+          </form>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer>
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <h2>UNWINDING CURIOSITY</h2>
+          </a>
+
+          <p class="footer-text">
+            BE CURIOUS.
+          </p>
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-link-title">Start A Conversation</p>
+          </li>
+
+          <li>
+            <a href="mailto:hello@micro.com" class="footer-link">unwindingcuriousity@gmail.com</a>
+          </li>
+
+          <li>
+            <a href="tel:+0123454678" class="footer-link">0437195171</a>
+          </li>
+
+        </ul>
+
+        <div class="social-list-box">
+
+          <p class="social-title">Follow Us On:</p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-soundcloud"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-apple"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright">
+          &copy; 2023 <a href="#">unwindingcuriosity</a>. All Rights Reserved
+        </p>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="chevron-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
